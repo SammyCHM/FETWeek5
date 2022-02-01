@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tictactoe.css"
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"
+    
+</head>
+<body>
+    <div class="container">
+        <h1 id="headerText">Tic Tac Toe Game</h1>
+        
+            
+        </div>
+        <br>
+        <div id="playerInfo"></div>
+        <br>
+        <div id="playerWinz"></div>
+        <br>
+        <div id="ticTable">
+            <table id="gameBoard">
+
+                <tr>
+                    <td id="Box1" onclick="anotherOne()" ></td>
+                    <td  id="Box2"onclick="anotherTwo()" ></td>
+                    <td id="Box3" onclick="anotherThree()" ></td>
+                </tr>
+                <tr>
+                    <td id="Box4" onclick="anotherFour()"></td>
+                    <td id="Box5"  onclick="anotherFive()"></td>
+                    <td id="Box6" onclick="anotherSix()"></td>
+                </tr>
+                <tr>
+                    <td id="Box7" onclick="anotherSeven()"></td>
+                    <td id="Box8" onclick="anotherEight()"></td>
+                    <td id="Box9" onclick="anotherNine()"></td>
+                </tr>
+    
+    
+            </table>
+
+        </div>
+       
+
+    
+    <br><br>
+    <button class="btn btn-primary" id="restartBtn" onclick="clearIt()">RESET</button>
+    <script src="tictactoe.js"></script>
+   <script src="node_modules/jquery/dist/jquery.js"></script>
+   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    
+</body>
+</html>

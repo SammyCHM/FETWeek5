@@ -1,0 +1,21 @@
+table, tr,td{
+    border: 10px solid black;
+    width: 300px;
+    height: 100px;
+}
+
+#Box1,#Box2,#Box3,#Box4,#Box5,#Box6, #Box7,#Box8,#Box9{
+  text-align: center;
+  font-size: large
+}
+
+#playerWinz{
+
+    text-align: center;
+    font-size: 50px;
+}
+
+#playerInfo{
+
+    font-size: 30px;
+}
